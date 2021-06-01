@@ -1,13 +1,14 @@
 package com.uber.uber.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class User {
+import javax.persistence.Entity;
+
+@Entity(name = "users")
+@Getter
+@Setter
+public class User extends BaseEntity {
 
     private String username;
     private String email;
