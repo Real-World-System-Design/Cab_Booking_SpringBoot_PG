@@ -1,0 +1,26 @@
+<h1 align="center">:book:<tt>Bloggy</tt>:book:</h1>
+
+<blockquote align="center">Blogging application for sharing your knowledge API</blockquote>
+
+<p align="center"><a href="https://github.com/real-world-system-design/Blogging_Node_PG"><img alt="Github actions 
+status" src="https://github.com/real-world-system-design/Blogging_Node_PG/actions/workflows/node.js.yml/badge.svg" /></a></p>
+
+## Technologies used :
+* NodeJS     -- Platform
+* Express    -- Server
+* TypeScript -- Language
+* PostgreSQL -- DataBase
+* TypeORM    -- ORM
+* Bcrypt     -- Hashing
+* Jwt        -- Autheentication
+* Heroku     -- Deployment
+
+## Database setup :
+```SQL
+$create database cabDB;
+$create user cabUser with encrypted password 'cabPass';
+$grant all privileges on database cabDB to cabUser;
+```
+## Running and Installation of the app
+java amd maven should have to be installed before runnig the application 
+```$mvn spring-boot:run```
