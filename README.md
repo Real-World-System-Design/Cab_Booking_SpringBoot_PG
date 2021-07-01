@@ -3,7 +3,7 @@
 <blockquote align="center">cab booking application API let's you book nearest cabs</blockquote>
 
 <p align="center"><a href="https://github.com/real-world-system-design/Cab_Booking_SpringBoot_PG"><img alt="Github actions 
-status" src="https://github.com/real-world-system-design/Cab_Booking_SpringBoot_PG/actions/workflows/node.js.yml/badge.svg" /></a></p>
+status" src="https://github.com/real-world-system-design/Cab_Booking_SpringBoot_PG/actions/workflows/maven.yml/badge.svg" /></a></p>
 
 ## Technologies used :
 * SpringBoot -- Platform
